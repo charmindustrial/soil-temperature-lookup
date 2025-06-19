@@ -1,7 +1,6 @@
 # Large data files
 *.tif
 *.TIF
-SBIO1_Annual_Mean_Temperature_5_15cm.tif
 
 # Python
 __pycache__/
