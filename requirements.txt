@@ -1,0 +1,6 @@
+# Wheel-based install – avoids system GDAL/PROJ.
+rasterio~=1.3.9
+pyproj~=3.6.1
+numpy
+matplotlib
+geopy 
