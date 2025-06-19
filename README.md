@@ -10,12 +10,6 @@ Ultra-fast querying of global soil temperatures (5–15 cm depth) from the
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
-# 2. Download the global soil temperature raster (193 MB, one-time)
-curl -L -o SBIO1_Annual_Mean_Temperature_5_15cm.tif \
-  "https://zenodo.org/record/4558732/files/SBIO1_Annual_Mean_Temperature_5_15cm.tif?download=1"
-
-# 3. Ready to query!
 ```
 
 ## Primary Use Case: Extract Temperature Data for Geographic Regions
